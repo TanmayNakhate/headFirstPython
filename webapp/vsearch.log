@@ -1,0 +1,3 @@
+ImmutableMultiDict([('phrase', 'birju'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0|{'i', 'u'}
+ImmutableMultiDict([('phrase', 'ichigo'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0|{'o', 'i'}
+ImmutableMultiDict([('phrase', 'bleach'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0|{'a', 'e'}

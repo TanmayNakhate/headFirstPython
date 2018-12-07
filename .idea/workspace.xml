@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0780e068-f832-4751-8c49-0b7e9f9e4cdb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sanfoundry.com/exchange_values.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sanfoundry.com/read_Compute_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sanfoundry.com/reverse_num.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sanfoundry.com/exchange_values.py" afterPath="$PROJECT_DIR$/sanfoundry.com/exchange_values.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +26,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange_values.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exchange_values.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sanfoundry.com/exchange_values.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read_Compute_number.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sanfoundry.com/read_Compute_number.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reverse_num.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sanfoundry.com/reverse_num.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -80,10 +102,12 @@
         <option value="$PROJECT_DIR$/sanfoundry.com/ReadMe.txt" />
         <option value="$PROJECT_DIR$/sanfoundry.com/avg_in_list.py" />
         <option value="$PROJECT_DIR$/sanfoundry.com/exchange_values.py" />
+        <option value="$PROJECT_DIR$/sanfoundry.com/read_Compute_number.py" />
+        <option value="$PROJECT_DIR$/sanfoundry.com/reverse_num.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -142,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.avg_in_list">
+  <component name="RunManager" selected="Python.reverse_num">
     <configuration name="avg_in_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,36 +184,53 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="fileHandling" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="exchange_values" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sanfoundry.com" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="headFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fileHandling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanfoundry.com/exchange_values.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="simpleWebDriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="read_Compute_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sanfoundry.com" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="headFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selenium/simpleWebDriver" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanfoundry.com/read_Compute_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="reverse_num" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sanfoundry.com" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="headFirstPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sanfoundry.com/reverse_num.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -211,37 +252,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="vsearch4web" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webapp" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="headFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webapp/vsearch4web.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.vsearch4web" />
-      <item index="1" class="java.lang.String" itemvalue="Python.fileHandling" />
-      <item index="2" class="java.lang.String" itemvalue="Python.simpleWebDriver" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.avg_in_list" />
+      <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.avg_in_list" />
+      <item index="2" class="java.lang.String" itemvalue="Python.exchange_values" />
+      <item index="3" class="java.lang.String" itemvalue="Python.read_Compute_number" />
+      <item index="4" class="java.lang.String" itemvalue="Python.reverse_num" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.avg_in_list" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.simpleWebDriver" />
-        <item index="3" class="java.lang.String" itemvalue="Python.vsearch4web" />
-        <item index="4" class="java.lang.String" itemvalue="Python.fileHandling" />
+        <item index="0" class="java.lang.String" itemvalue="Python.reverse_num" />
+        <item index="1" class="java.lang.String" itemvalue="Python.read_Compute_number" />
+        <item index="2" class="java.lang.String" itemvalue="Python.exchange_values" />
+        <item index="3" class="java.lang.String" itemvalue="Python.avg_in_list" />
+        <item index="4" class="java.lang.String" itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +283,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1036" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25305623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -475,8 +499,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sanfoundry.com/exchange_values.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sanfoundry.com/read_Compute_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sanfoundry.com/reverse_num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>

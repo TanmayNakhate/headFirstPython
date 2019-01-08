@@ -8,7 +8,8 @@ for i in range(0,num):
     lname = input("last Name of employee : ")
     salary = input("Salary of employee : ")
     nickname = input("nickName of employee : ")
-    employees[empId] = {'Name' : fname+" "+lname, 'Salary': salary, 'Nick' : nickname}
+    employees.[empId] = {'Name' : fname+" "+lname, 'Salary': salary, 'Nick' : nickname}
+
 print(employees)
 pprint.pprint(employees)
     

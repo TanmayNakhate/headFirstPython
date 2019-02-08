@@ -1,3 +1,5 @@
+import random
+
 class listsProg:
     """Python Program to Find the Largest Number in a List"""
     def largeList(self,lst):
@@ -34,15 +36,23 @@ class listsProg:
 
     def sortbysecondelem(self):
         words = [['a',12],['d',123],['b',13],['q',5],['b',45]]
-        words.sort()
+        for i in range(0,len(words)):
+            for j in range(0,len(words)-i-1):
+                if words[j][1]>words[j+1][1]:
+                    temp=words[j]
+                    words[j] =words[j+1]
+                    words[j+1]=temp
         print(words)
-        
+
 
 
 myList = [1,2,3,4,5,6,7,8,9,10]
 obj = listsProg()
-obj.largeList(myList)
-obj.secondLargest(myList)
-obj.evenodd(myList)
-obj.sortmerge(myList)
-obj.sortbysecondelem()
+#obj.largeList(myList)
+#obj.secondLargest(myList)
+#obj.evenodd(myList)
+#obj.sortmerge(myList)
+#obj.sortbysecondelem()
+#obj.bubblessort()
+#obj.listOfTupleSquare()
+obj.perfectsqsumoflist()

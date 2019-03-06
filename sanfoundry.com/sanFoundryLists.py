@@ -1,6 +1,6 @@
 import random
 import os
-
+import re
 
 class listsProg:
     """Python Program to Find the Largest Number in a List"""
@@ -30,6 +30,7 @@ class listsProg:
         print("List to merger :",lst)
         words.sort()
         lst.sort()
+        lst.sorted()
         words.extend(lst)
         print("extend() words List with lst : ",words)   #['a', 'b', 'f', 'f', 'g', 's', 'v', 'w', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         words.append(lst)

@@ -4,7 +4,7 @@
 # License: BSD (3-clause). See the file LICENSE.
 
 from .context import csv2html
-import os.path
+import oslearn.path
 import sys
 import unittest
 
@@ -14,11 +14,11 @@ else:
     from io import StringIO
 
 
-TEST_PATH = os.path.dirname(os.path.realpath(__file__))
+TEST_PATH = oslearn.path.dirname(oslearn.path.realpath(__file__))
 
 
 def read_file(filename):
-    with open(os.path.join(TEST_PATH, filename), 'rb') as f:
+    with open(oslearn.path.join(TEST_PATH, filename), 'rb') as f:
         content = f.read().decode('utf-8')
     return content
 
@@ -27,9 +27,9 @@ def convert_test_data(filename='test.csv', **kwargs):
     output = StringIO()
 
     if csv2html.PYTHON2:
-        ctx = open(os.path.join(TEST_PATH, filename), 'rb')
+        ctx = open(oslearn.path.join(TEST_PATH, filename), 'rb')
     else:
-        ctx = open(os.path.join(TEST_PATH, filename), 'r', encoding='utf-8')
+        ctx = open(oslearn.path.join(TEST_PATH, filename), 'r', encoding='utf-8')
     with ctx as input:
         csv2html.convert_csv_to_html(input, output, **kwargs)
 

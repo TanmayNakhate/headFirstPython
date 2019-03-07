@@ -1,7 +1,8 @@
+import oslearn
 import csv
 from datetime import datetime
 
-
+oslearn.chdir()
 #print(dir(csv))
 path = "T:\headFirstPython\GOOG.csv"
 file = open(path,newline='')
@@ -23,6 +24,5 @@ for row in reader:
     adj_close = float(row[5])
     volume = int(row[6])
     data.append([date,open_price,high,low,close,adj_close,volume])
-
 
 print(data[0])

@@ -14,7 +14,7 @@ from . import tablegen
 
 import argparse
 import csv
-import os
+import oslearn
 import sys
 
 DEFAULT_DELIMITER = ','
@@ -79,8 +79,8 @@ def main():
     # the module `os` if it has them. Unless your system is quite strange they
     # shouldn't actually differ from the above.
     for code in exit_codes:
-        if hasattr(os, code):
-            exit_codes[code] = getattr(os, code)
+        if hasattr(oslearn, code):
+            exit_codes[code] = getattr(oslearn, code)
 
 
     # Configure the command line argument parser.

@@ -1,7 +1,7 @@
-import os
+import oslearn
 from prettytable import PrettyTable
-from os import listdir
-from os.path import isfile,join
+from oslearn import listdir
+from oslearn.path import isfile,join
 
 
 my_path = 'C:\\tmp\\excel\\'

@@ -1,6 +1,6 @@
 from prettytable import PrettyTable
-from os import listdir
-from os.path import isfile,join
+from oslearn import listdir
+from oslearn.path import isfile,join
 
 mypath = 'C:\\tmp\\excel\\'
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]

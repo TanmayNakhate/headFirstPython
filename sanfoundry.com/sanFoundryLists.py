@@ -1,4 +1,6 @@
+import random
 import os
+import re
 
 class listsProg:
     """Python Program to Find the Largest Number in a List"""
@@ -28,6 +30,7 @@ class listsProg:
         print("List to merger :",lst)
         words.sort()
         lst.sort()
+        lst.sorted()
         words.extend(lst)
         print("extend() words List with lst : ",words)   #['a', 'b', 'f', 'f', 'g', 's', 'v', 'w', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         words.append(lst)
@@ -36,6 +39,15 @@ class listsProg:
 
     """Python Program to Sort the List According to the Second Element in Sublist"""
     def sortbysecondelem(self):
+        words = [['a',12],['d',123],['b',13],['q',5],['b',45]]
+        for i in range(0,len(words)):
+            for j in range(0,len(words)-i-1):
+                if words[j][1]>words[j+1][1]:
+                    temp=words[j]
+                    words[j] =words[j+1]
+                    words[j+1]=temp
+        print(words)
+
         listoflists = [['a',12],['d',123],['b',13],['q',5],['b',45]]
         for i in range(0, len(listoflists)):
             for j in range(0, len(listoflists) - i - 1):
@@ -57,6 +69,31 @@ class listsProg:
         lst.extend(words)
         print ("Union of two lists :",lst)
 
+    def bubblessort(self):
+        lst = [122, 5, 11, 45, 1, 87, 4]
+        for i in range(0, len(lst)):
+            for j in range(0, len(lst) - i - 1):
+                if lst[j] > lst[j + 1]:
+                    temp = lst[j]
+                    lst[j] = lst[j + 1]
+                    lst[j + 1] = temp
+        print(lst)
+
+    def listOfTupleSquare(self):
+        top = (2, 6, 1, 4)
+        lst = []
+        for i in top:
+            new = list([i, i ** 2])
+            lst.append(new)
+        print(lst)
+
+    def perfectsqsumoflist(self):
+        # print(100**0.5)
+        lst = [x for x in range(100, 399) if ((x ** 0.5) ** 2 == x) and sum(list(map(int, str(x)))) < 10]
+        print(lst)
+
+
+
 myList = [1,2,3,4,5,6,7,8,9,10]
 obj = listsProg()
 #obj.largeList(myList)
@@ -64,5 +101,9 @@ obj = listsProg()
 #obj.evenodd(myList)
 #obj.sortmerge(myList)
 #obj.sortbysecondelem()
+#obj.bubblessort()
+obj.listOfTupleSquare()
+#obj.perfectsqsumoflist()
 #obj.sortbasedonlength()
-obj.unionList(myList)
+#obj.unionList(myList)
+
